@@ -1,0 +1,72 @@
+body {
+    font-family: Roboto;
+    background: rgba(75, 75, 155, 0.86);
+    background: linear-gradient(to left, #8E0E00, #39460f);
+}
+
+#container {
+    height: 425px;
+    width: 360px;
+    margin: 100px auto;   
+    background: #f7f7f7;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+
+}
+
+h1 {
+  background: #1F030C;
+  color: #fff;
+    font-size: 26px;
+    
+}
+
+#cal-number,
+p {
+    margin-left: 15px;
+}
+
+.totalTip {
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+#peopleamt {
+    margin-left: 15px;
+}
+
+#calculate {
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin: 30px auto;
+    background: #AD133A;
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    font-size: 17px;
+    color: white;
+}
+
+#calculate:active,
+#calculate:hover {
+    background: #80142f;
+    cursor: pointer;
+}
+
+#totalTip  {
+    font-size: 20px;
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+

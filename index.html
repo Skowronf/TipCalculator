@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+        <body>
+            <title>Kalkulator Napiwków</title>
+            <div id="container">
+              <h1>Kalkulator Napiwków</h1>
+              <div id="calculator">
+
+
+                <form>
+                  <p>Ile wynosił rachunek?
+                    <p>
+                      <input id="billamt" type="text" placeholder="Rachunek"> PLN
+
+                      <p>Jak podobała Ci sie obsługa?<p>
+                          <select id="serviceQual">
+                        <option disabled selected value="0">-- Wybierz opcje --</option>
+                        <option value="0.3">30&#37; &#45; Wspaniała</option>
+                        <option value="0.2">20&#37; &#45; Dobra</option>
+                        <option value="0.15">15&#37; &#45; Normalna</option>
+                        <option value="0.1">10&#37; &#45; Zła</option>
+                        <option value="0.05">5&#37; &#45; Okropna</option>
+                    </select>
+
+                </form>
+                <p>Ile osób dzieli rachunek?</p>
+                    <input id="peopleamt" type="text" placeholder="Ilość osób">
+                    <button type="button" id="calculate">Oblicz!</button>
+
+              </div>
+              <!--calculator end-->
+              <div id="totalTip">
+                <sup>PLN</sup><span id="tip">0.00</span>
+                <small id="each">/osoba</small>
+              </div>
+              <!--totalTip end-->
+
+            </div>
+            <!--container end-->
+
+            <script type="text/javascript" src="timcalculator.js"></script>
+        </body>
+</html>
